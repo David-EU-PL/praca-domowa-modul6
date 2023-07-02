@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Rejestracja</title>
+</head>
+
+<body>
+    <form class="form" action="https://formspree.io/f/xwkdezzp" method="post" enctype="multipart/form-data">
+        <div class="form__group">
+            <h1 class="form__h1">Stwórz nowe konto</h1>
+            <label class="form__label" for="email">Wprowadź adres e-mail:</label>
+            <input class="form__text" type="email" id="email" name="email" placeholder="Wprowadź adres e-mail" required
+                autofocus>
+        </div>
+        <div class="form__group">
+            <label class="form__label" for="password">Wprowadź hasło:</label>
+            <input class="form__text--password" type="password" id="password" name="password"
+                placeholder="Wprowadź hasło" minlength="3" required">
+        </div>
+        <div class="form__group">
+            <label class="form__label" for="confirm-password">Potwierdź hasło:</label>
+            <input class="form__text--password" type="password" id="confirm-password" name="confirm-password"
+                placeholder="Potwierdź hasło" minlength="3" required>
+        </div>
+        <div class="form__btns">
+            <input class="form__button" type="submit" value="Rejestruj">
+        </div>
+    </form>
+</body>
+
+</html>

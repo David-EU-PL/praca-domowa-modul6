@@ -1,0 +1,79 @@
+@import './normalize.css';
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+::selection {
+	background: red;
+	color: yellow;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.form {
+	box-shadow: 8px 8px 24px 0 #88a5a5;
+	height: 65%;
+	padding: 3rem 5rem;
+	width: 90%;
+}
+
+.form__group {
+	padding: 1.5rem 2rem;
+}
+
+.form__h1 {
+	font-size: 2.8rem;
+}
+
+.form__label {
+	display: inline-block;
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.form__text,
+.form__text--password {
+	border-radius: 5px;
+	border: 0;
+	box-shadow: 0 0 5px -2px #0000ff;
+	font-size: 1.5rem;
+	padding: 1.3rem 2rem;
+	width: 100%;
+}
+
+.form__text::placeholder,
+.form__text--password::placeholder {
+	color: #808080;
+}
+
+.form__text:focus {
+	background: #88ecec;
+	box-shadow: 0 0 5px 0 #0000ff;
+}
+
+.form__btns {
+	padding: 4rem 2rem;
+}
+
+.form__button {
+	background: #0066ff;
+	border: 0;
+	border-radius: 10px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 2.2rem;
+	margin-right: 2rem;
+	padding: 1.8rem 3.4rem;
+}
+
+.form__button:hover {
+	background: #008cff;
+}
