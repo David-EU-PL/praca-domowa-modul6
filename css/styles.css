@@ -21,6 +21,7 @@ body {
 .form {
 	box-shadow: 8px 8px 24px 0 #88a5a5;
 	height: 65%;
+	margin: 2rem 2rem;
 	padding: 3rem 5rem;
 	width: 90%;
 }
